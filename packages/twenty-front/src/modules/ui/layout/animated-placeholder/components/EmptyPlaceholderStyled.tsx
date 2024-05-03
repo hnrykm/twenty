@@ -7,6 +7,7 @@ const StyledEmptyContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: ${({ theme }) => theme.spacing(6)};
+  padding-top: ${({ theme }) => theme.spacing(6)};
   justify-content: center;
   text-align: center;
 `;
